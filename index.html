@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uma Aventura em Família</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Uma Aventura em Família</h1>
+    </header>
+    <main id="comic-container">
+        <div class="panel active" id="panel1">
+            <img src="1.jpeg" alt="Retrato da família com Lúcia, Ed e Samuel" class="panel-image">
+            <div class="text">Conheça a família gordinha e feliz: Lúcia, Ed e seu filho Samuel.</div>
+        </div>
+        <div class="panel" id="panel2">
+            <img src="2.jpeg" alt="Família animada, fazendo as malas para uma aventura" class="panel-image">
+            <div class="text">Eles estão se preparando para uma aventura emocionante. Ir para a Campus Party!</div>
+        </div>
+        <div class="panel" id="panel3">
+            <img src="3.jpeg" alt="Família chegando ao festival Campus Party" class="panel-image">
+            <div class="text">A família chega ao festival Campus Party, que fica na Arena Pernambuco.</div>
+        </div>
+        <div class="panel" id="panel4">
+            <img src="4.jpeg" alt="Família se divertindo no festival" class="panel-image">
+            <div class="text">Lúcia, Ed e Samuel se divertem muito na Campus!</div>
+        </div>
+        <div class="panel" id="panel5">
+            <img src="5.jpeg" alt="Família parecendo preocupada enquanto escurece" class="panel-image">
+            <div class="text">Ao tentar ir embora, eles percebem que está escurecendo e o Uber não está chegando!</div>
+        </div>
+        <div class="panel" id="panel6">
+            <img src="6.jpeg" alt="Lúcia parecendo irritada e assustada" class="panel-image">
+            <div class="text">Lúcia fica irritada e com medo, pois está ficando tarde e eles ainda estão presos lá.</div>
+        </div>
+        <div class="panel" id="panel7">
+            <img src="7.jpeg" alt="Ed se escondendo atrás dos carros" class="panel-image">
+            <div class="text">Ed está desesperado para usar o banheiro, mas não há nenhum disponível. Ele acaba se aliviando atrás de alguns carros estacionados.</div>
+        </div>
+        <div class="panel" id="panel8">
+            <img src="8.jpeg" alt="Família entrando em um Uber, parecendo aliviada" class="panel-image">
+            <div class="text">Finalmente, o Uber deles chega! A família está aliviada por finalmente estar voltando para casa.</div>
+        </div>
+    </main>
+    <div class="nav-buttons">
+        <button id="prevBtn" onclick="changePanel(-1)">Anterior</button>
+        <button id="nextBtn" onclick="changePanel(1)">Próximo</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
